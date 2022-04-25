@@ -1,0 +1,50 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    /* padding-top: 4.5rem; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light {
+    padding: 12px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 8px 10px ;
+    color: #222 !important;
+    font-size: 0.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link  .fas {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.nav-item .dropdown-menu {
+    border-radius: 0;
+    border-color: #e5e5e5;
+}
+
+.nav-item .dropdown-menu a {
+    font-size: 0.8rem;
+}
+
+.nav-item .dropdown-menu a:hover {
+    background-color: #eaeaea;
+    color: #222
+}
