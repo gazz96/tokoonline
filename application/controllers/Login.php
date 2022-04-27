@@ -47,6 +47,8 @@ class Login extends MY_Controller
         echo hashEncrypt('admin');
         die();
     }
+
+    
 }
 
 /* End of file Login.php */

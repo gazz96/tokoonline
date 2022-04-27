@@ -32,14 +32,8 @@
                         <div class="form-group">
                             <label for="">Ada Stok?</label>
                             <br>
-                            <div class="form-check form-check-inline">
-                                <?= form_radio(['name' => 'is_available', 'value' => 1, 'checked' => $input->is_available == 1 ? true : false, 'class' => 'form_check_input']) ?>
-                                <label for="" class="form-check-label">Tersedia</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <?= form_radio(['name' => 'is_available', 'value' => 0, 'checked' => $input->is_available == 0 ? true : false, 'class' => 'form_check_input']) ?>
-                                <label for="" class="form-check-label">Kosong</label>
-                            </div>
+                            <input name="is_available" type="text" class="form-control" value="<?php echo $input->is_available; ?>">
+                            <?= form_error('id_category') ?>
                         </div>
                         <div class="form-group">
                             <label for="">Gambar</label>

@@ -56,7 +56,7 @@
                                     </td>
                                     <td>Rp.<?= number_format($row->price, 0, ',', '.') ?>,-</td>
                                     <td><?php echo $row->description; ?></td>
-                                    <td><?= $row->is_available ? 'Tersedia' : 'Kosong' ?></td>
+                                    <td><?= $row->is_available ?></td>
                                     <td>
                                         <?= form_open(base_url("product/delete/$row->id"), ['method' => 'POST']) ?>
                                             <?= form_hidden('id', $row->id) ?>
